@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header start from here */
+header{
+    height: 140vh;
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.header-container{
+    padding: 0px 80px;
+}
+
+
+/* navbar start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo h1{
+    background-image: linear-gradient(to right,rgba(186, 11, 249, 1),rgba(94, 74, 241, 1),rgba(186, 11, 249, 1),rgba(94, 74, 241, 1));
+    color: transparent;
+    background-clip: text;
+    font-family: "Sevillana", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.menu{
+    display: flex;
+    padding-top: 15px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+.download-cv{
+    background-color: rgba(253, 111, 0, 1);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.menu li a:hover{
+    color: aqua;
+}
+
+/* navbar start */
+
+/* banner start */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.itroduction{
+    
+}
+
+.name-1{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+}
+
+.name-1 i{
+    color: rgba(253, 111, 0, 1);
+}
+
+.name-1 span{
+    color: rgba(253, 111, 0, 1);
+}
+
+.name-2{
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+.name-2 i{
+    color: rgba(253, 111, 0, 1);
+}
+
+.name-2-0{
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.name-3{
+    display: flex;
+    width: 35%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding: 5px;
+    padding-right: 30px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.292);
+}
+
+.sub-name-1 p{
+    background-color: rgba(253, 111, 0, 1);
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.sub-name-2 p{
+    margin-top: 15px;
+}
+
+.name-icon{
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.name-icon a i{
+    transition: 0.5s;
+}
+
+.name-icon a i:hover{
+    color: rgb(6, 157, 218);
+    transform: rotate(360deg) scale(1.25);
+}
+
+.name-icon a{
+    color: gray;
+}
+
+.banner-img{
+    height: 400px;
+    width: 400px;
+}
+
+.banner-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 5px solid gray;
+}
+
+.rotate-style-div{
+    display: flex;
+    justify-content: space-between;
+    width: 115.05%;
+    background-color: black;
+    color: white;
+    padding: 35px 0;
+    transform: rotate(-5deg);
+    margin-top: -35px;
+    margin-left: -88px;
+    font-size: 30px;
+}
+
+
+
+.rotate-style-div i{
+    color: grey;
+}
+
+.star-div{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-div-1 h1{
+    color: white;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.star-div-1 p{
+    color: grey;
+}
+
+.star-div-1 span{
+    background-image: linear-gradient(to right,rgba(186, 11, 249, 1),rgba(94, 74, 241, 1),rgba(186, 11, 249, 1),rgba(94, 74, 241, 1));
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.star-div-2 i{
+    color: rgba(253, 111, 0, 1);
+    margin-bottom: 15px;
+}
+
+.star-div-2 h1{
+    color: white;
+}
+
+.star-div-2 p{
+    text-align: right;
+    color: white;
+}
+
+/* banner End */
+
+/* header End from here */
+
+
+/* main section start from here  */
+
+/* experince-section start  */
+.experince-section{
+    padding: 80px 80px;
+    background-color: rgba(30, 30, 30, 1);
+    background-image: linear-gradient(to right,rgba(184, 106, 223, 0.1),rgba(255, 177, 71, 0.1),rgba(255, 108, 99, 0.1));
+    color: white;
+}
+
+.experince-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expericne-item-1{
+    font-family: "Rubik", sans-serif;
+}
+
+.expericne-item-1 h6{
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.expericne-item-1 h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.expericne-item-2{
+    font-family: "Rubik", sans-serif;
+}
+
+.present-rolling{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.experince{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+/* experince-section End    */
+
+
+/* awards-section start */
+.awards-section{
+    padding: 60px 80px;
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.awards-text{
+    text-align: center;
+}
+
+.awards-text h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.awards-text p{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.awards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.awards-item{
+    background-color: black;
+    padding: 40px 30px;
+    width: 50%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.awards-item:hover{
+    background-image: linear-gradient(to right,rgba(2, 68, 2, 0.301),rgba(184, 106, 223, 0.1),rgba(255, 177, 71, 0.1),rgba(255, 108, 99, 0.1));
+    transform: scale(1.075);
+}
+
+.awards-item p{
+    color: grey;
+}
+
+
+.achived-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* awards-section End */
+
+
+/* my-portfollio section start */
+.my-portfollio{
+    padding: 0px 80px;
+    background-color: rgba(30, 30, 30, 1);
+    font-family: "Rubik", sans-serif;
+}
+
+.my-portfollio-title{
+    text-align: center;
+}
+
+.my-portfollio-title h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.my-portfollio-title {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.my-portfollio-catagory{
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.my-portfollio-catagory-1{
+    background-color: black;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.my-portfollio-catagory-1:hover{
+    transform: scale(1.075);
+    opacity: 0.5;
+}
+
+.my-portfollio-catagory-2{
+    background-color: rgba(253, 111, 0, 1);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.my-portfollio-catagory-2:hover{
+    transform: scale(1.075);
+    opacity: 0.5;
+}
+
+.my-portfollio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-portfollio-item-1{
+    display: flex;
+}
+
+.my-portfollio-item-1 img{
+    height: 300px;
+    width: 300px;
+}
+
+.my-portfollio-item-1-text{
+    margin-left: 20px;
+    align-content: center;
+}
+
+.my-portfollio-item-1-text h1,h6{
+    color: white;
+}
+
+.my-portfollio-item-1-text h1{
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+.my-portfollio-item-1-text p{
+    color: grey;
+}
+
+.my-portfollio-item-2{
+    display: flex;
+}
+
+.my-portfollio-item-2 img{
+    height: 300px;
+    width: 300px;
+}
+
+.my-portfollio-item-2-text{
+    margin-left: 20px;
+    align-content: center;
+}
+
+.my-portfollio-item-2-text h1,h6{
+    color: white;
+}
+
+.my-portfollio-item-2-text h1{
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+.my-portfollio-item-2-text p{
+    color: grey;
+}
+/* my-portfollio section End */
+
+
+/* contact section start */
+.contact-section{
+    background-color: rgba(30, 30, 30, 1);
+    padding: 80px 80px;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact-section-title{
+    text-align: center;
+}
+
+.contact-section-title h6{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.contact-section-title h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.contact-section-container{
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section-container-content{
+    padding:0 120px;
+    padding-bottom: 40px;
+    background-color: rgba(253, 111, 0, 0.1);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.contact-section-container-content:hover{
+    transform: scale(1.05);
+}
+
+
+
+.contact-section-container-content h1{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#name{
+    width: 250px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+#name::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+#email{
+    width: 250px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin-right: 30px;
+}
+
+#email::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+#massage{
+    width: 535px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+#massage::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.submit-button{
+    background-color: rgba(253, 111, 0, 1);
+    margin-top: 15px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+/* contact section End */
+
+/* main section End from here  */
+
+
+/* footer section start from here */
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.footer-container{
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.footer-logo{
+    background-image: linear-gradient(to right,rgba(186, 11, 249, 1),rgba(94, 74, 241, 1),rgba(186, 11, 249, 1),rgba(94, 74, 241, 1));
+    color: transparent;
+    background-clip: text;
+    font-family: "Sevillana", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer-logo:hover{
+    transform: scale(1.075);
+}
+
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-menu li{
+    list-style-type: none;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: gray;
+}
+
+.footer-menu li a:hover{
+    color: white;
+}
+
+.footer-icon{
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer-icon a i{
+    transition: 0.5s;
+}
+
+.footer-icon a i:hover{
+    color: rgb(6, 157, 218);
+    transform: rotate(360deg) scale(1.25);
+}
+
+.footer-icon a{
+    color: white;
+}
+
+.footer-end{
+    padding: 20px;
+    background-color: rgba(18, 18, 18, 1);
+    text-align: center;
+}
+
+.footer-end span{
+    color: rgba(253, 111, 0, 1);
+}
+/* footer section End from here */

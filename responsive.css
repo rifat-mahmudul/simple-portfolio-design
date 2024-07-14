@@ -1,0 +1,227 @@
+/* header start from here */
+header{
+    height: 220vh;
+}
+
+
+.header-container{
+    padding: 0 25px;
+}
+
+/* navbar start here */
+.logo h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.navbar{
+    flex-direction: column;
+}
+
+.menu{
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu li{
+    margin-bottom: 10px;
+}
+
+.download-cv{
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+/* navbar End here */
+
+
+.banner{
+    margin-top: 5px;
+    flex-direction: column;
+    padding: 0 60px;
+}
+
+.name-1{
+    font-size: 20px;
+}
+
+.name-2{
+    font-size: 15px;
+}
+
+.name-3{
+    width: 60%;
+    padding: 2px;
+    border-radius: 25px;
+}
+
+.name-3 p{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sub-name-2 p{
+    margin-top: 2px;
+}
+
+.name-icon{
+    font-size: 25px;
+}
+
+.banner-img{
+    height: 300px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.rotate-style-div{
+    font-size: 14px;
+    padding: 25px;
+    margin-top: -55px;
+    transform: rotate(-7deg);
+    width: 113.05%;
+}
+
+.star-div{
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 0 60px;
+}
+
+.star-div-1 h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.star-div-1 span{
+    font-size: 16px;
+}
+
+.star-div-1{
+    margin-bottom: 10px;
+}
+
+.star-div-2 i{
+    margin-bottom: -5px;
+}
+
+.star-div-2 p{
+    text-align: left;
+}
+/* header End from here */
+
+/* main section start from here  */
+
+/* experince-section start  */
+.experince-container{
+    flex-direction: column;
+}
+
+.expericne-item-1 h1{
+    font-size: 30px;
+}
+
+.expericne-item-1 p{
+    margin-bottom: 20px;
+}
+
+.present-rolling{
+    margin-bottom: 10px;
+}
+
+.experince{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* experince-section End  */
+
+
+/* awards-section start */
+.achived-div{
+    flex-direction: column;
+}
+
+.achived{
+    margin: 10px 0;
+}
+/* awards-section End */
+
+
+/* my-portfollio section start */
+.my-portfollio-catagory{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.my-portfollio-catagory-1{
+    width: 120px;
+}
+
+.my-portfollio-catagory-2{
+    width: 120px;
+}
+
+.my-portfollio-item-1{
+    flex-direction: column;
+}
+
+.my-portfollio-item-1-text h6{
+    margin-top: 15px;
+}
+
+.my-portfollio-item-2{
+    flex-direction: column;
+}
+
+.my-portfollio-item-2-text p{
+    margin-bottom: 10px;
+}
+/* my-portfollio section End */
+
+
+/* contact section start */
+.contact-section-container{
+    padding: 0 10px;
+}
+
+.contact-section-container-content{
+    padding: 0 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.contact-section-container-content h1{
+    font-size: 20px;
+}
+
+#name{
+    width: 275px;
+    margin-right: 0;
+}
+
+#email{
+    width: 275px;
+    margin-top: -120px;
+    margin-bottom: 50px;
+}
+
+#massage{
+    width: 275px;
+}
+
+/* contact section End */
+
+/* main section End from here  */
+
+
+/* footer section start from here */
+.footer-menu{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer-menu li a{
+    margin-bottom: 25px;
+}
+/* footer section End from here */
